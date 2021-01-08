@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+    width: 100%;
+}
+.container{
+    display: flex;
+    width: 50%;
+    margin: 5 auto;
+    border: 1px solid red;
+    p {
+        font{
+            size: 1.3em;
+            color: #333333;
+        }
+    }
+    &__content{
+        border: 1px solid #eee;
+    }
+}

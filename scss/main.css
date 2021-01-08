@@ -1,0 +1,24 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  margin: 5 auto;
+  border: 1px solid red;
+}
+
+.container p font {
+  size: 1.3em;
+  color: #333333;
+}
+
+.container__content {
+  border: 1px solid #eee;
+}
+/*# sourceMappingURL=main.css.map */
